@@ -1,0 +1,119 @@
+/* Go to Google to get good import links */
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+/* Universal Styles */
+* {
+    box-sizing: border-box;
+    position: relative;
+}
+
+body {
+    font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif;
+    background-color: hsl(0, 0%, 95%);
+    margin-top: 5%;
+}
+
+.container {
+    display: flex;
+    width: 90vw;
+    margin: auto;
+    border-radius: 15%;
+    padding: 0px;
+}
+
+h1 {
+    font-family: 'Big Shoulders Display', sans-serif;
+}
+
+/* Specific Styles */
+#sedans {
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 10px 0px 0px 10px;
+}
+
+#suvs {
+    background-color: hsl(184, 100%, 22%);
+}
+
+#luxury {
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0px 10px 10px 0px;
+
+}
+
+#sedans button {
+    color: hsl(31, 77%, 52%);
+}
+
+#suvs button {
+    color: hsl(184, 100%, 22%);
+}
+
+#luxury button {
+    color: hsl(179, 100%, 13%);
+}
+
+.cars {
+    padding: 50px;
+    color: white;
+}
+
+.cars p {
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+.cars h1 {
+    color: hsl(0, 0%, 95%);
+    text-transform: uppercase;
+    padding: 10px 0px;
+}
+
+button {
+    background-color: hsl(0, 0%, 95%);
+    padding: 20px;
+    border-radius: 50px;
+    border: none;
+    margin-top: 50px;
+    font-family: 'Lexend Deca';
+}
+
+/* Active States */
+button:hover {
+    cursor: pointer;
+    border: 2px solid hsl(0, 0%, 95%);
+}
+#sedans button:hover {
+    background-color: hsl(31, 77%, 52%);
+    color: hsl(0, 0%, 95%);
+}
+
+#suvs button:hover {
+    background-color: hsl(184, 100%, 22%);
+    color: hsl(0, 0%, 95%);
+}
+
+#luxury button:hover {
+    background-color: hsl(179, 100%, 13%);
+    color: hsl(0, 0%, 95%);
+}
+
+/* Footer */
+.attribution {
+    margin-top: 20px;
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+/* Media Querries */
+@media (max-width: 550px) {
+    .container {
+        flex-direction: column;
+        
+    }
+}
