@@ -113,7 +113,13 @@ button:hover {
 /* Media Querries */
 @media (max-width: 550px) {
     .container {
-        flex-direction: column;
-        
+        flex-direction: column;    
+    }
+    #sedans {
+        border-radius: 10px 10px 0px 0px;
+    }
+    #luxury {
+        border-radius: 0px 0px 10px 10px;
+
     }
 }
