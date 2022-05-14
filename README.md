@@ -14,8 +14,6 @@ This is a solution to the [3-column preview card component challenge on Frontend
   - [Useful resources](#useful-resources)
 - [Author](#author)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -31,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/TrudyCyns/3-Column-Preview)
-- Live Site URL: [Add live site URL here](https://3-column-preview-coral.vercel.app)
+- Solution URL: [Git Hub | 3-Column-Preview](https://github.com/TrudyCyns/3-Column-Preview)
+- Live Site URL: [Vercel | 3-Column-Preview](https://3-column-preview-coral.vercel.app)
 
 ## My process
 
@@ -54,11 +52,9 @@ I learnt how to set border radiuses for different corners of a container.
 
 ### Useful resources
 
-- [Example resource 1](https://www.w3schools.com/CSSref/css3_pr_border-radius.asp) - This helped me figure out how I could manipulate the border radius. I really liked this pattern and will use it going forward.
+- [w3schools](https://www.w3schools.com/CSSref/css3_pr_border-radius.asp) - This helped me figure out how I could manipulate the border radius. I really liked this pattern and will use it going forward.
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/TrudyCyns
+- Frontend Mentor - [@TrudyCyns](https://www.frontendmentor.io/profile/TrudyCyns
 )
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
